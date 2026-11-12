@@ -1,4 +1,4 @@
-const CACHE = 'jpl-personal-shell-v1';
+const CACHE = 'jpl-personal-shell-v2';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'weekly.js', 'catalogue.js', 'tactical.js', 'personal.js', 'register-sw.js', 'manifest.webmanifest', 'assets/jpl-icon-180.png', 'assets/jpl-icon-192.png', 'assets/jpl-icon-512.png', 'assets/jpl-icon.svg', 'assets/CATALOGUE-100.json', 'assets/montserrat-400.ttf', 'assets/montserrat-600.ttf', 'assets/montserrat-700.ttf', 'assets/montserrat-800.ttf'];
 const ASSETS = SHELL.map(path => new URL(path, self.registration.scope).href);
 self.addEventListener('install', event => {
