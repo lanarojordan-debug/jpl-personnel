@@ -30,3 +30,6 @@ select{appearance:none;-webkit-appearance:none;padding-right:46px;background-ima
 .tac-tabs .button{background:#29465a;border-color:var(--coach);color:var(--text)}
 .tac-mobile-tools{display:none}.tac-mobile-tools summary{cursor:pointer;font-weight:700;color:var(--coach);padding:10px 0}.tac-mobile-tools .actions{display:grid;margin-top:8px}.tac-mobile-tools .actions button{width:100%}
 @media(max-width:600px){.tac-desktop-actions{display:none}.tac-mobile-tools{display:block;width:100%}.tac-top{gap:8px}.tac-top .pill{margin-right:auto}}
+
+/* iOS agrandit automatiquement la page lorsqu'un champ actif est sous 16 px. */
+@media(max-width:900px){input:not([type=checkbox]):not([type=radio]),select,textarea,.selector{font-size:16px}}
